@@ -1,0 +1,119 @@
+#top {
+  background-image: url(/images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#top h3 {
+  padding-top: 250px;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+}
+.button-top {
+  background-color: limegreen;
+  margin-top: 40px;
+  margin-left: 800px;
+  margin-bottom: 380px;
+}
+
+.myButton {
+  background-color: yellowgreen;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  padding: 16px 36px;
+  text-decoration: none;
+}
+.my-btn {
+  margin-left: 850px;
+  margin-bottom: 400px;
+  margin-top: 30px;
+}
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 20px;
+  padding-left: 20%;
+}
+/* .logo a:hover{
+      color: white;
+  } */
+.bg-light .logo {
+  transition: 0.35s;
+  letter-spacing: 1px;
+  color: yellowgreen;
+}
+.bg-light .logo a:hover {
+  color: red;
+}
+.fixed-top.scrolled {
+  background-color: #ffffff;
+}
+
+.navbar-nav {
+  padding-right: 18%;
+  justify-content: space-around;
+}
+.home {
+  color: yellowgreen;
+}
+.info {
+  background-color: yellowgreen;
+  color: white;
+  padding: 50px 0;
+  font-size: 70px;
+}
+.info p {
+  font-size: 17px;
+  margin: auto;
+}
+.microphone {
+  margin: 0 auto;
+
+  padding: 70px 0;
+}
+.microphone img {
+  width: 25%;
+  margin-left: 20%;
+}
+.microphone_info {
+  margin-right: 20%;
+  padding-left: 47%;
+}
+.microphone p {
+  font-size: 25px;
+}
+.test {
+  margin: 0 auto;
+  padding: 70px 0;
+  background-color: black;
+}
+.test img {
+  width: 25%;
+  margin-right: 20%;
+}
+.test_info {
+  margin-left: 20%;
+  padding-right: 42%;
+}
+.test p {
+  font-size: 25px;
+}
+.pin {
+  font-size: 60px;
+  color: yellowgreen;
+  transform: rotate(35deg);
+}
+.sanity p {
+  font-size: 25px;
+  padding: 0 13%;
+}
+.contact {
+  background-color: yellowgreen;
+}
+.contact p {
+  font-size: 30px;
+}

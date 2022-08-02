@@ -107,6 +107,38 @@
   color: yellowgreen;
   transform: rotate(35deg);
 }
+.image-grid {
+  position: relative;
+  color: white;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 200px;
+  
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center;  */
+
+  /* vertical-align: middle;
+  text-align: center; */
+}
+.image-grid:hover{
+  border: 10px solid white;
+}
+
+.image_grid:hover {
+  transform: scale(1.1);
+ 
+}
+.centered {
+  position: absolute;
+  color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* line-height: 200px;
+  display: inline-block;*/
+} 
 .sanity p {
   font-size: 25px;
   padding: 0 13%;
